@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <title>Nosotros | Lavandería para Airbnb en Mérida | Whitecloud</title>
+  <meta name="description" content="Conoce la historia de White Cloud: una operación de Airbnb que resolvió su propio problema de lavandería y ahora lo resuelve para otros hosts en Mérida, Yucatán.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="_ds/white-cloud-d18bcda4-aa42-4ab8-8a0b-ec981d2f9575/tokens/fonts.css">
+  <link rel="stylesheet" href="_ds/white-cloud-d18bcda4-aa42-4ab8-8a0b-ec981d2f9575/tokens/colors.css">
+  <link rel="stylesheet" href="_ds/white-cloud-d18bcda4-aa42-4ab8-8a0b-ec981d2f9575/tokens/typography.css">
+  <link rel="stylesheet" href="_ds/white-cloud-d18bcda4-aa42-4ab8-8a0b-ec981d2f9575/tokens/spacing.css">
+  <link rel="stylesheet" href="_ds/white-cloud-d18bcda4-aa42-4ab8-8a0b-ec981d2f9575/styles.css">
+  <script src="_ds/white-cloud-d18bcda4-aa42-4ab8-8a0b-ec981d2f9575/_ds_bundle.js"></script>
+  <style>
+    body{margin:0;background:#FAFAF8;font-family:'Inter',system-ui,sans-serif;}
+    *,*::before,*::after{box-sizing:border-box;}
+    a{text-decoration:none;}
+    h1,h2,h3,p,blockquote{margin:0;}
+    ul{margin:0;padding:0;list-style:none;}
+    img{display:block;}
+    address{font-style:normal;}
+
+    .wc-ey{font-size:11px;font-weight:600;letter-spacing:0.18em;color:#8A929B;text-transform:uppercase;display:block;}
+    .wc-secnum{display:flex;align-items:center;gap:10px;}
+    .wc-secnum-val{font-size:12px;font-weight:600;color:#5F8499;letter-spacing:0.04em;}
+    .wc-secnum-line{width:20px;height:1px;background:#E4E4DF;flex-shrink:0;}
+    .wc-dot{width:5px;height:5px;background:#7DA3B8;border-radius:999px;flex-shrink:0;display:block;}
+    .wc-nl{font-size:14px;font-weight:400;color:#5C6770;transition:color .15s;}
+    .wc-nl:hover{color:#1F2933;}
+    .wc-nl-d{font-size:14px;font-weight:400;color:#8A929B;transition:color .15s;}
+    .wc-nl-d:hover{color:#FAFAF8;}
+    .wc-btn{font-size:15px;font-weight:500;color:#FAFAF8;background:#1F2933;padding:16px 32px;border-radius:999px;display:inline-block;transition:background .15s;white-space:nowrap;}
+    .wc-btn:hover{background:#5F8499;}
+    .wc-btn-sm{font-size:14px;font-weight:500;color:#FAFAF8;background:#1F2933;padding:11px 24px;border-radius:999px;display:inline-block;transition:background .15s;white-space:nowrap;}
+    .wc-btn-sm:hover{background:#5F8499;}
+    .wc-btn-li{font-size:15px;font-weight:500;color:#1F2933;background:#FAFAF8;padding:15px 32px;border-radius:999px;display:inline-block;transition:background .15s;white-space:nowrap;}
+    .wc-btn-li:hover{background:#F0EBE0;}
+    .wc-tl{font-size:14px;font-weight:500;color:#1F2933;border-bottom:1px solid #C8C8C3;padding-bottom:2px;transition:border-color .15s;}
+    .wc-tl:hover{border-color:#1F2933;}
+    .wc-fl{font-size:14px;color:#8A929B;transition:color .15s;}
+    .wc-fl:hover{color:#FAFAF8;}
+    .wc-cursor{display:inline-block;width:2px;height:0.78em;background:rgba(250,250,248,0.72);vertical-align:middle;margin-left:3px;animation:wc-blink 0.6s step-end infinite;}
+    .wc-cursor.done{animation:none;opacity:0;transition:opacity 0.5s;}
+    @keyframes wc-blink{0%,100%{opacity:1;}50%{opacity:0;}}
+
+    /* ─── Balance + Responsive ─── */
+    h1,h2,h3{text-wrap:balance;}
+    @media (max-width:900px){
+      header > div{height:auto!important;flex-wrap:wrap;gap:14px 24px;padding-top:16px!important;padding-bottom:16px!important;}
+      header nav{gap:20px!important;flex-wrap:wrap;justify-content:flex-start;}
+      [style*="grid-template-columns: 1fr 1fr"]{grid-template-columns:1fr!important;}
+      [style*="grid-template-columns: repeat(3, 1fr)"]{grid-template-columns:1fr!important;}
+      [style*="grid-template-columns: repeat(2, 1fr)"]{grid-template-columns:1fr!important;}
+      [style*="grid-template-columns: 280px 1fr"]{grid-template-columns:1fr!important;}
+      [style*="grid-template-columns: 2fr 1fr 1fr 1fr"]{grid-template-columns:1fr 1fr!important;gap:40px!important;}
+      [style*="min-height: 700px"]{min-height:0!important;}
+      .wc-hero-img{position:relative!important;height:340px!important;min-height:340px!important;}
+      [style*="padding: 88px 56px 88px 48px"]{padding:64px 28px!important;}
+    }
+    @media (max-width:600px){
+      h1{font-size:clamp(34px,10vw,50px)!important;line-height:1.06!important;}
+      h2{font-size:clamp(25px,7vw,34px)!important;}
+      [style*="padding: 100px 48px"],[style*="padding: 96px 48px"],[style*="padding: 80px 48px"]{padding:56px 22px!important;}
+      [style*="padding: 120px 48px"]{padding:60px 22px!important;}
+      [style*="padding: 0px 48px"]{padding:0 22px!important;}
+      [style*="padding: 72px 48px 48px"]{padding:56px 22px 40px!important;}
+      [style*="grid-template-columns: 2fr 1fr 1fr 1fr"]{grid-template-columns:1fr!important;}
+    }
+  </style>
+</helmet>
+<a href="/contacto" aria-label="$100 de descuento en tu primer servicio — comenzar" style="display:flex;align-items:center;justify-content:center;gap:12px;background:#1F2933;padding:12px 24px;text-align:center;transition:background .15s;" onmouseover="this.style.background='#2E3D4A'" onmouseout="this.style.background='#1F2933'">
+  <span style="font-size:13px;font-weight:400;color:#FAFAF8;letter-spacing:0.01em;"><strong style="font-weight:600;color:#7DA3B8;">$100 de descuento</strong> en tu primer servicio</span>
+  <span style="font-size:13px;font-weight:600;color:#FAFAF8;white-space:nowrap;">Comenzar &rarr;</span>
+</a>
+
+<div style="background:#FAFAF8;color:#1F2933;">
+
+  <!-- ── NAV ── -->
+  <header style="position:sticky;top:0;z-index:100;background:#FAFAF8;border-bottom:1px solid #E4E4DF;">
+    <div style="max-width:1200px;margin:0 auto;height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 48px;">
+      <a href="Homepage.dc.html" aria-label="White Cloud — inicio" style="display:flex;align-items:center;gap:10px;">
+        <svg width="28" height="22" viewBox="0 0 24 18" fill="none" aria-hidden="true"><path d="M19.5 8.5C19.16 6.03 17.03 4.17 14.46 4.17C13.33 4.17 12.28 4.54 11.43 5.16C10.54 3.34 8.67 2.08 6.5 2.08C3.46 2.08 1 4.54 1 7.58C1 7.72 1.01 7.85 1.02 7.98C0.41 8.57 0.04 9.39 0.04 10.29C0.04 12.09 1.5 13.54 3.29 13.54H19.71C21.5 13.54 22.96 12.09 22.96 10.29C22.96 9.39 22.59 8.57 21.98 7.98Z" stroke="#7DA3B8" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round" fill="#7DA3B8" fill-opacity="0.18"></path></svg>
+        <span style="font-size:13px;font-weight:600;letter-spacing:0.04em;color:#1F2933;text-transform:uppercase;">WHITE CLOUD</span>
+      </a>
+      <nav aria-label="Navegación principal" style="display:flex;align-items:center;gap:36px;">
+        <a href="Servicios.dc.html" class="wc-nl">Servicios</a>
+        <a href="ComoFunciona.dc.html" class="wc-nl">Cómo funciona</a>
+        <a href="Nosotros.dc.html" style="font-size:14px;font-weight:500;color:#1F2933;border-bottom:1px solid #1F2933;padding-bottom:1px;">Nosotros</a>
+        <a href="/precios" class="wc-nl">Precios</a>
+        <a href="Preguntas.dc.html" class="wc-nl">Preguntas</a>
+        <a href="/contacto" class="wc-btn-sm">Agenda tu servicio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── HERO ── -->
+    <section aria-labelledby="nosotros-h1" style="display:grid;grid-template-columns:1fr 1fr;min-height:700px;">
+      <div style="background:#1F2933;padding:88px 56px 88px 48px;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden;">
+        <!-- watermark -->
+        <div style="position:absolute;right:-60px;bottom:-40px;opacity:0.04;pointer-events:none;" aria-hidden="true">
+          <svg width="520" height="400" viewBox="0 0 24 18" fill="#7DA3B8"><path d="M19.5 8.5C19.16 6.03 17.03 4.17 14.46 4.17C13.33 4.17 12.28 4.54 11.43 5.16C10.54 3.34 8.67 2.08 6.5 2.08C3.46 2.08 1 4.54 1 7.58C1 7.72 1.01 7.85 1.02 7.98C0.41 8.57 0.04 9.39 0.04 10.29C0.04 12.09 1.5 13.54 3.29 13.54H19.71C21.5 13.54 22.96 12.09 22.96 10.29C22.96 9.39 22.59 8.57 21.98 7.98Z"></path></svg>
+        </div>
+        <p class="wc-ey" style="color:#5C6770;margin-bottom:52px;position:relative;">Mérida, Yucatán · Nosotros</p>
+        <h1 id="nosotros-h1" style="font-size:62px;font-weight:600;letter-spacing:-0.04em;line-height:0.97;color:#FAFAF8;position:relative;">
+          El estándar<br>
+          <em style="font-weight:300;font-style:italic;color:#5C6770;">invisible</em><br>
+          detrás de los<br>
+          Airbnbs que<br>
+          <span id="wc-type-target" aria-label="nunca fallan."></span><span class="wc-cursor" aria-hidden="true"></span>
+        </h1>
+        <div style="display:flex;align-items:center;gap:16px;margin:36px 0;position:relative;">
+          <div style="width:32px;height:1px;background:#7DA3B8;"></div>
+          <span class="wc-ey" style="color:#7DA3B8;">White Cloud · Lavandería para Airbnb</span>
+        </div>
+        <p style="font-size:17px;font-weight:300;color:#8A929B;max-width:440px;line-height:1.75;position:relative;">White Cloud nació operando limpieza de Airbnbs en Mérida. De ahí entendimos algo que ninguna lavandería de barrio resuelve: la consistencia. Hoy nos encargamos de que los blancos de un host nunca sean motivo de preocupación.</p>
+      </div>
+      <div class="wc-hero-img" style="position:relative;overflow:hidden;min-height:700px;">
+        <img src="assets/img-towels-chair.jpg" alt="Toallas blancas perfectamente dobladas y preparadas para entrega, estándar White Cloud" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;">
+        <div style="position:absolute;inset:0;background:linear-gradient(to right,rgba(31,41,51,0.15) 0%,transparent 30%);pointer-events:none;"></div>
+      </div>
+    </section>
+
+    <!-- ── 01 · QUIÉNES SOMOS ── -->
+    <div style="height:1px;background:#E4E4DF;"></div>
+    <section id="quienes-somos" aria-labelledby="quienes-h2" style="background:#F3F1ED;">
+      <div style="max-width:1200px;margin:0 auto;padding:100px 48px;">
+
+        <div class="wc-secnum" style="margin-bottom:64px;">
+          <span class="wc-secnum-val">01</span>
+          <div class="wc-secnum-line"></div>
+          <span class="wc-ey">Quiénes somos</span>
+        </div>
+
+        <h2 id="quienes-h2" style="font-size:38px;font-weight:600;letter-spacing:-0.025em;line-height:1.2;color:#1F2933;max-width:560px;margin-bottom:64px;">Antes de ser White Cloud, fuimos Frandea.</h2>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-bottom:72px;">
+          <p style="font-size:17px;font-weight:300;color:#5C6770;line-height:1.8;">Seis años limpiando propiedades de Airbnb en Mérida. En ese tiempo vimos el mismo problema una y otra vez — lavanderías de barrio que no entregaban a tiempo, blancos que llegaban mal, un eslabón que rompía toda la operación justo antes de un check-in.</p>
+          <p style="font-size:17px;font-weight:300;color:#5C6770;line-height:1.8;">White Cloud existe para cerrar ese eslabón. No somos una lavandería que aprendió de Airbnb. Somos una operación de Airbnb que decidió resolver su propio problema — y ahora lo resuelve para otros hosts que viven exactamente lo mismo.</p>
+        </div>
+
+        <!-- pull quote -->
+        <div style="border-left:1.5px solid #7DA3B8;padding-left:36px;max-width:680px;">
+          <p style="font-size:20px;font-weight:400;color:#1F2933;line-height:1.65;font-style:italic;font-weight:300;">No somos una lavandería que aprendió de Airbnb. Somos una operación de Airbnb que decidió resolver su propio problema.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── 02 · POR QUÉ CONFIAR ── -->
+    <div style="height:1px;background:#E4E4DF;"></div>
+    <section id="por-que-confiar" aria-labelledby="confiar-h2" style="background:#FAFAF8;">
+      <div style="max-width:1200px;margin:0 auto;padding:100px 48px;">
+
+        <div class="wc-secnum" style="margin-bottom:48px;">
+          <span class="wc-secnum-val">02</span>
+          <div class="wc-secnum-line"></div>
+          <span class="wc-ey">Por qué confiar en nosotros</span>
+        </div>
+
+        <h2 id="confiar-h2" style="font-size:38px;font-weight:600;letter-spacing:-0.025em;line-height:1.2;color:#1F2933;max-width:520px;margin-bottom:56px;">Tres razones que no son promesas. Son hechos.</h2>
+
+        <!-- 3-col editorial grid -->
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#E4E4DF;margin-bottom:64px;">
+
+          <div style="background:#FAFAF8;padding:48px 40px;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:32px;">
+              <span style="font-size:12px;font-weight:600;color:#7DA3B8;letter-spacing:0.08em;">01</span>
+              <div style="flex:1;height:1px;background:#E4E4DF;"></div>
+            </div>
+            <h3 style="font-size:20px;font-weight:600;letter-spacing:-0.01em;color:#1F2933;margin-bottom:16px;line-height:1.25;">Operación impecable, sin sorpresas</h3>
+            <p style="font-size:15px;font-weight:300;color:#5C6770;line-height:1.75;">Tiempos cumplidos, calidad uniforme, reposición inmediata si algo falla. No prometemos tranquilidad: la entregamos cada semana.</p>
+          </div>
+
+          <div style="background:#FAFAF8;padding:48px 40px;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:32px;">
+              <span style="font-size:12px;font-weight:600;color:#7DA3B8;letter-spacing:0.08em;">02</span>
+              <div style="flex:1;height:1px;background:#E4E4DF;"></div>
+            </div>
+            <h3 style="font-size:20px;font-weight:600;letter-spacing:-0.01em;color:#1F2933;margin-bottom:16px;line-height:1.25;">Aliado, no proveedor</h3>
+            <p style="font-size:15px;font-weight:300;color:#5C6770;line-height:1.75;">Somos la extensión operativa del host — hablamos su idioma, entendemos sus tiempos, y respondemos por el resultado, no solo por la tarea.</p>
+          </div>
+
+          <div style="background:#FAFAF8;padding:48px 40px;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:32px;">
+              <span style="font-size:12px;font-weight:600;color:#7DA3B8;letter-spacing:0.08em;">03</span>
+              <div style="flex:1;height:1px;background:#E4E4DF;"></div>
+            </div>
+            <h3 style="font-size:20px;font-weight:600;letter-spacing:-0.01em;color:#1F2933;margin-bottom:16px;line-height:1.25;">Autoridad ganada en cancha</h3>
+            <p style="font-size:15px;font-weight:300;color:#5C6770;line-height:1.75;">Nacimos operando limpieza de Airbnbs. Sabemos lo que duele porque nos dolió. Esa diferencia se nota en cada entrega.</p>
+          </div>
+
+        </div>
+
+        <!-- no negociable -->
+        <div style="border-left:1.5px solid #7DA3B8;padding-left:36px;max-width:660px;">
+          <p style="font-size:11px;font-weight:600;letter-spacing:0.18em;color:#7DA3B8;text-transform:uppercase;margin-bottom:16px;">El no negociable</p>
+          <p style="font-size:19px;font-weight:400;color:#1F2933;line-height:1.7;">Si algo falla, lo resolvemos antes de que el huésped lo note.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── 03 · NUESTRO COMPROMISO ── -->
+    <div style="height:1px;background:#E4E4DF;"></div>
+    <section id="nuestro-compromiso" aria-labelledby="compromiso-h2" style="background:#1F2933;">
+      <div style="max-width:1200px;margin:0 auto;padding:100px 48px;">
+
+        <div class="wc-secnum" style="margin-bottom:48px;">
+          <span class="wc-secnum-val" style="color:#5F8499;">03</span>
+          <div class="wc-secnum-line" style="background:#2E3D4A;"></div>
+          <span class="wc-ey" style="color:#5C6770;">Nuestro compromiso</span>
+        </div>
+
+        <h2 id="compromiso-h2" style="font-size:38px;font-weight:600;letter-spacing:-0.025em;line-height:1.2;color:#FAFAF8;max-width:560px;margin-bottom:72px;">Un estándar que no depende del día.</h2>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#2E3D4A;">
+
+          <div style="background:#1F2933;padding:48px 48px 48px 0;">
+            <div style="display:flex;align-items:flex-start;gap:14px;margin-bottom:24px;">
+              <div style="width:5px;height:5px;background:#7DA3B8;border-radius:999px;flex-shrink:0;margin-top:10px;"></div>
+              <p class="wc-ey" style="color:#7DA3B8;">Con el host</p>
+            </div>
+            <p style="font-size:17px;font-weight:300;color:#8A929B;line-height:1.8;">Una sola responsabilidad menos en su lista. Un interlocutor, un estándar, sin necesidad de supervisar.</p>
+          </div>
+
+          <div style="background:#1F2933;padding:48px 0 48px 48px;">
+            <div style="display:flex;align-items:flex-start;gap:14px;margin-bottom:24px;">
+              <div style="width:5px;height:5px;background:#7DA3B8;border-radius:999px;flex-shrink:0;margin-top:10px;"></div>
+              <p class="wc-ey" style="color:#7DA3B8;">Con la operación</p>
+            </div>
+            <p style="font-size:17px;font-weight:300;color:#8A929B;line-height:1.8;">Cada entrega igual a la anterior. La consistencia es lo que una lavandería de barrio no puede dar — y lo que un host serio valora más que el precio.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── CIERRE / CTA ── -->
+    <section aria-label="Contáctenos" style="background:#F0EBE0;position:relative;overflow:hidden;">
+      <div style="position:absolute;inset:0;background-image:url('assets/img-linen-texture.png');background-size:cover;background-position:center;opacity:0.12;pointer-events:none;"></div>
+      <div style="max-width:800px;margin:0 auto;padding:120px 48px;text-align:center;position:relative;">
+        <p style="font-size:32px;font-weight:300;font-style:italic;color:#1F2933;line-height:1.45;margin-bottom:52px;letter-spacing:-0.01em;">Los blancos dejan de ser su preocupación el día que empezamos.</p>
+        <a href="/contacto" class="wc-btn">Contáctenos</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer style="background:#1F2933;padding:72px 48px 48px;border-top:1px solid #2E3D4A;">
+    <div style="max-width:1200px;margin:0 auto;">
+      <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:64px;">
+        <div>
+          <a href="Homepage.dc.html" aria-label="White Cloud — inicio" style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
+            <svg width="28" height="22" viewBox="0 0 24 18" fill="none" aria-hidden="true"><path d="M19.5 8.5C19.16 6.03 17.03 4.17 14.46 4.17C13.33 4.17 12.28 4.54 11.43 5.16C10.54 3.34 8.67 2.08 6.5 2.08C3.46 2.08 1 4.54 1 7.58C1 7.72 1.01 7.85 1.02 7.98C0.41 8.57 0.04 9.39 0.04 10.29C0.04 12.09 1.5 13.54 3.29 13.54H19.71C21.5 13.54 22.96 12.09 22.96 10.29C22.96 9.39 22.59 8.57 21.98 7.98Z" stroke="#7DA3B8" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round" fill="#7DA3B8" fill-opacity="0.18"></path></svg>
+            <span style="font-size:13px;font-weight:600;letter-spacing:0.04em;color:#FAFAF8;text-transform:uppercase;">WHITE CLOUD</span>
+          </a>
+          <p style="font-size:14px;color:#5C6770;line-height:1.75;max-width:260px;"><em style="font-weight:300;font-style:italic;color:#8A929B;">El estándar invisible.</em><br>Lavandería profesional para Airbnbs en Mérida, Yucatán.</p>
+        </div>
+        <div>
+          <span class="wc-ey" style="color:#5C6770;margin-bottom:20px;">Navegación</span>
+          <nav aria-label="Navegación de pie de página" style="display:flex;flex-direction:column;gap:12px;margin-top:20px;">
+            <a href="Servicios.dc.html" class="wc-fl">Servicios</a>
+            <a href="ComoFunciona.dc.html" class="wc-fl">Cómo funciona</a>
+            <a href="Nosotros.dc.html" class="wc-fl">Nosotros</a>
+            <a href="/precios" class="wc-fl">Precios</a>
+            <a href="Preguntas.dc.html" class="wc-fl">Preguntas</a>
+            <a href="/testimonios" class="wc-fl">Testimonios</a>
+            <a href="/contacto" class="wc-fl">Contacto</a>
+          </nav>
+        </div>
+        <div>
+          <span class="wc-ey" style="color:#5C6770;margin-bottom:20px;">Contacto</span>
+          <div style="display:flex;flex-direction:column;gap:12px;margin-top:20px;">
+            <a href="https://wa.me/529994157306" target="_blank" rel="noopener" class="wc-fl">WhatsApp</a>
+            <a href="mailto:lavanderia@somoswhitecloud.com" class="wc-fl" style="font-size:13px;">lavanderia@somoswhitecloud.com</a>
+            <address style="display:flex;flex-direction:column;gap:4px;margin-top:8px;">
+              <span style="font-size:14px;color:#5C6770;">Mérida, Yucatán</span>
+              <span style="font-size:14px;color:#5C6770;">México</span>
+            </address>
+          </div>
+        </div>
+        <div>
+          <span class="wc-ey" style="color:#5C6770;margin-bottom:20px;">Redes sociales</span>
+          <div style="display:flex;flex-direction:column;gap:12px;margin-top:20px;">
+            <a href="https://www.instagram.com/whitecloudmx_/" target="_blank" rel="noopener" class="wc-fl">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=61591286797034" target="_blank" rel="noopener" class="wc-fl">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <div style="border-top:1px solid #2E3D4A;padding-top:28px;">
+        <p style="font-size:13px;color:#5C6770;">© 2026 WHITE CLOUD · Lavandería profesional para Airbnbs · Mérida, Yucatán</p>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  componentDidMount() {
+    const text = 'nunca fallan.';
+    const target = document.getElementById('wc-type-target');
+    if (!target) return;
+    const cursor = target.nextElementSibling;
+    target.textContent = '';
+    let i = 0;
+    const tick = () => {
+      if (i < text.length) {
+        target.textContent += text[i++];
+        setTimeout(tick, 72 + Math.random() * 38);
+      } else if (cursor) {
+        setTimeout(() => cursor.classList.add('done'), 1100);
+      }
+    };
+    setTimeout(tick, 950);
+  }
+}
+</script>
+</body>
+</html>
