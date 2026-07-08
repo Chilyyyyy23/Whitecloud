@@ -1,0 +1,40 @@
+/* White Cloud Design System · Spacing & Layout Tokens */
+:root {
+  /* ── Espaciado base (múltiplos de 4px) ── */
+  --wc-space-1:    4px;
+  --wc-space-2:    8px;
+  --wc-space-3:   12px;
+  --wc-space-4:   16px;
+  --wc-space-5:   20px;
+  --wc-space-6:   24px;
+  --wc-space-8:   32px;
+  --wc-space-10:  40px;
+  --wc-space-12:  48px;
+  --wc-space-16:  64px;
+  --wc-space-20:  80px;
+  --wc-space-24:  96px;
+  --wc-space-32: 128px;
+
+  /* ── Radios ── */
+  --wc-radius-none: 0;
+  --wc-radius-sm:   4px;
+  --wc-radius-md:   8px;
+  --wc-radius-lg:   16px;
+  --wc-radius-pill: 999px;
+
+  /* ── Anchos de contenedor ── */
+  --wc-container-sm:   640px;
+  --wc-container-md:   880px;
+  --wc-container-lg:  1200px;
+  --wc-container-xl:  1440px;
+
+  /* ── Bordes ── */
+  --wc-border-width: 1px;
+  --wc-border-color: var(--wc-border);
+
+  /* ── Sombras ── */
+  --wc-shadow-sm:   0 2px 8px rgba(0,0,0,0.06);
+  --wc-shadow-md:   0 8px 32px rgba(0,0,0,0.08);
+  --wc-shadow-lg:   0 16px 56px rgba(0,0,0,0.12);
+  --wc-shadow-dark: 0 8px 40px rgba(0,0,0,0.18);
+}

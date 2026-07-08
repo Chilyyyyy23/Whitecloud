@@ -1,0 +1,47 @@
+/* White Cloud Design System · Typography Tokens */
+:root {
+  /* ── Familia ── */
+  --wc-font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* ── Pesos ── */
+  --wc-weight-light:   300;
+  --wc-weight-regular: 400;
+  --wc-weight-medium:  500;
+  --wc-weight-semi:    600;
+
+  /* ── Escala de tamaños ── */
+  --wc-text-xs:      11px;  /* labels · etiquetas · eyebrow */
+  --wc-text-sm:      13px;  /* nav · firma · metadata */
+  --wc-text-base:    15px;  /* cuerpo estándar */
+  --wc-text-md:      17px;  /* cuerpo amplio */
+  --wc-text-lg:      22px;  /* subtítulos */
+  --wc-text-xl:      28px;  /* H3 */
+  --wc-text-2xl:     38px;  /* H2 */
+  --wc-text-3xl:     52px;  /* H1 mobile */
+  --wc-text-4xl:     72px;  /* H1 desktop */
+  --wc-text-display: 80px;  /* Hero display */
+
+  /* ── Interlineado ── */
+  --wc-leading-tight:   1.1;
+  --wc-leading-snug:    1.3;
+  --wc-leading-normal:  1.5;
+  --wc-leading-relaxed: 1.7;
+  --wc-leading-loose:   1.8;
+
+  /* ── Tracking ── */
+  --wc-tracking-tight:   -0.035em;
+  --wc-tracking-normal:   0;
+  --wc-tracking-wide:     0.06em;
+  --wc-tracking-wider:    0.12em;
+  --wc-tracking-widest:   0.22em;
+}
+
+body {
+  font-family: var(--wc-font);
+  font-size: var(--wc-text-base);
+  font-weight: var(--wc-weight-regular);
+  line-height: var(--wc-leading-relaxed);
+  color: var(--wc-color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
